@@ -30,12 +30,12 @@ function displayCards(result) {
 
     const card = document.createElement("div");
     card.setAttribute("class", "card text-black bg-light mb-3 border-black mb-3 border border-2 border-dark rounded-1");
-    card.setAttribute("style", "width: 35rem");
+    card.setAttribute("style", "width: 40rem");
 
     const image = document.createElement("img")
-    image.setAttribute("class", "card-img-top text-dark bg-light mb-3 cl-1 border-bottom border-dark");
+    image.setAttribute("class", "card-img-top text-dark bg-light border-bottom border-dark");
     image.setAttribute("src", "chucknorris.jpeg");
-    image.setAttribute("alt", "game image");
+  image.setAttribute("alt", "chuck norris image");
 
     const cardBody = document.createElement("div");
     cardBody.classList.add("card-body");

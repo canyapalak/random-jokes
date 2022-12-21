@@ -1,7 +1,8 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     background: url("chuck-wall.jpg") center repeat !important;
-        background-size: 20em !important;
+    background-size: 20em !important;
+    background-attachment: fixed !important;
 }
 
 #main {
